@@ -1,0 +1,21 @@
+{
+    "name": "DiffLens Dev Container",
+    "build": {
+        "dockerfile": "Dockerfile",
+        "context": ".."
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "dbaeumer.vscode-eslint",
+                "esbenp.prettier-vscode",
+                "ms-playwright.playwright"
+            ]
+        }
+    },
+    "forwardPorts": [
+        9323
+    ],
+    "postCreateCommand": "npm install",
+    "remoteUser": "root"
+}

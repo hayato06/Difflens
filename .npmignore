@@ -1,0 +1,31 @@
+# Source files
+src/
+
+# Tests
+tests/
+
+# Configuration files
+tsconfig.json
+tsup.config.ts
+vitest.config.ts
+.eslintrc*
+.prettierrc*
+
+# Development files
+.github/
+.vscode/
+.idea/
+
+# Output directories (except dist)
+.difflens/
+coverage/
+
+# Misc
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
+
+# Example/demo files
+difflens.config.ts
+difflens.config.js

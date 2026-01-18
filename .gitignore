@@ -1,0 +1,31 @@
+node_modules
+dist
+.difflens
+.difflens-test
+.env
+.DS_Store
+coverage
+tests/e2e/output/
+
+# Logs
+*.log
+logs/
+
+# Debug files
+debug_*.js
+test_*.js
+
+# Temporary files
+*.tmp
+*.temp
+
+# Output files
+output.json
+api_response.json
+
+# IDE
+.vscode/
+.idea/
+
+# Claude settings (local only)
+.claude/

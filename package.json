@@ -45,16 +45,16 @@
     "engines": {
         "node": ">=18.0.0"
     },
-    "author": "your-username",
+    "author": "hayato06",
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/your-username/difflens.git"
+        "url": "git+https://github.com/hayato06/difflens.git"
     },
     "bugs": {
-        "url": "https://github.com/your-username/difflens/issues"
+        "url": "https://github.com/hayato06/difflens/issues"
     },
-    "homepage": "https://github.com/your-username/difflens#readme",
+    "homepage": "https://github.com/hayato06/difflens#readme",
     "devDependencies": {
         "@axe-core/playwright": "^4.11.0",
         "@types/node": "^20.19.28",
